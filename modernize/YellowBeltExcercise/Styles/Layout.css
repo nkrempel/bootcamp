@@ -1,0 +1,84 @@
+body {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+#contactus {
+    float: right;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+nav {
+    height: 45px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding-left: 5px;
+}
+
+    nav ul {
+        list-style: none;
+        padding: 0px;
+    }
+
+        nav ul li {
+            display: block;
+        }
+
+.mainnav {
+    background: #5D5A59;
+}
+.navlink {
+
+    float: left;
+    height: 20px;
+    margin-right: 10px;
+    font-size: 18px;
+    padding-right: 18px;
+    color: white;
+    text-decoration: none;
+}
+#mainarticles {
+    float: left;
+    width: 100%;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    -webkit-column-count: 4;
+    column-count: 4;
+}
+#mainpurchase{
+    float: left;
+    width: 90%;
+}
+#mainpurchasebutton{
+    float: right;
+}
+.mainportarticle{
+    font-size: 12px;
+}
+.mainportfolios{
+    float: left;
+    width: 100%;
+    margin-top: 12px;
+    margin-bottom: 20px;
+    -webkit-column-count: 4;
+    column-count: 4;
+}
+.mainportfoliosheader {
+    font-size: 30px; 
+}
+.portfoliosviewall{
+    float: right;
+}
+.portarticleheader{
+    font-size: 20px;
+    color: #D73F1F;
+}
+.mainfooter{
+    float: right;
+}
