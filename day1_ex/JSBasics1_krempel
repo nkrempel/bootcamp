@@ -1,0 +1,43 @@
+/*
+ * This is a JavaScript Scratchpad.
+ *
+ * Enter some JavaScript, then Right Click or choose from the Execute Menu:
+ * 1. Run to evaluate the selected text (Ctrl+R),
+ * 2. Inspect to bring up an Object Inspector on the result (Ctrl+I), or,
+ * 3. Display to insert the result in a comment after the selection. (Ctrl+L)
+ */
+//1
+var x = [];
+console.log(x.length);
+x.push('coding','dojo','rocks');
+console.log(x.length,x);
+x.pop();
+console.log(x.length,x);
+//2
+const y = [];
+y.push(88);
+console.log(y);
+//3
+let z = [9,10,6,5,-1,20,13,2];
+console.log(z.length,z);
+for(let i = 0; i< z.length-1; i++){
+  console.log(z[i]);
+};
+//4
+let names = ['Kadie','Joe','Fritz','Pierre','Alphonso']
+for(let i = 0; i< names.length; i++){
+  if(names[i].length === 5)
+  console.log(names[i]);
+};
+//5
+function yell(string){
+  console.log(string.toUpperCase());
+};
+yell('hello!');
+
+
+
+
+
+
+
