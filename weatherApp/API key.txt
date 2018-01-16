@@ -1,0 +1,5 @@
+http://api.openweathermap.org/data/2.5/weather?q=MIlwaukee&&appid=9104d23c4a09bca4b22c0445ffb95be3
+
+
+
+&appid=9104d23c4a09bca4b22c0445ffb95be3
